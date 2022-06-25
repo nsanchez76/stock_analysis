@@ -10,13 +10,21 @@ The purpose of this analysis was to provide the client with an analysis of the p
 
 Microsoft Excel was used to analyze the performance of 12 different stocks during the years 2017 and 2018. A macro was written to create a table that lists each stock's ticker symbol, its total daily volume and its annual return. Thousands of lines of data were analyzed by the macro. Multiple data arrays were created to hold the information that the macro calculated. For loops were used to systematically run through each row of input data, as well as run through each ticker symbol. If statements were used to determine the first row of a ticker's set of data. The starting price of that stock would then be extracted and saved in the "tickerStartingPrices" array. Another If statement was used to find the last row of data for each stock. The closing price for that stock would be extracted and saved in the "tickerEndingPrices" array. Another For loop was used to display the values in each array. Finally, the start time and end time of each run of the macro was calculated and displayed in a pop-up window.
 
-The resulting table for 2017 is this: ![2017 Table](https://user-images.githubusercontent.com/106849689/175757872-9ed5d748-e649-416d-b41b-5b37de545d75.png)
+The resulting table for 2017 is this:
+![2017 Table](https://user-images.githubusercontent.com/106849689/175757872-9ed5d748-e649-416d-b41b-5b37de545d75.png)
 
-The resulting table for 2018 is this: ![2018 Table](https://user-images.githubusercontent.com/106849689/175757886-3c92b7e9-5e16-4b0c-8c52-b1b21392ed04.png)
 
-The resulting pop-up window for 2017 is this: ![VBA_Challenge_2017](https://user-images.githubusercontent.com/106849689/175757894-e7285d5c-e7fd-45ca-9ed8-d2de1ff9788c.png)
+The resulting table for 2018 is this:
+![2018 Table](https://user-images.githubusercontent.com/106849689/175757886-3c92b7e9-5e16-4b0c-8c52-b1b21392ed04.png)
 
-The resulting pop-up window for 2018 is this: ![VBA_Challenge_2018](https://user-images.githubusercontent.com/106849689/175757896-588c1bb0-87e4-4c07-81ae-c277d7c2c2bf.png)
+
+The resulting pop-up window for 2017 is this:
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/106849689/175757894-e7285d5c-e7fd-45ca-9ed8-d2de1ff9788c.png)
+
+
+The resulting pop-up window for 2018 is this:
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/106849689/175757896-588c1bb0-87e4-4c07-81ae-c277d7c2c2bf.png)
+
 
 ## Summary
 
